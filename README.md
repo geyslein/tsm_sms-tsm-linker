@@ -6,6 +6,8 @@
 
 ![ZID Basic STA Model](docs/BASIC-STA-Model.png)
 
+We use the `THING` as equivalent for a datasource. It may also be called *data logger*. 
+
 ### Examples
 
 #### Thing
@@ -101,6 +103,11 @@ beginning of time. ;)
 | start_date             | `2010-01-01 12:00:00.000000 +00:00`    |
 | end_date               | `2020-01-01 12:00:00.000000 +00:00`    |
 
+The start and end date could be derived from the device events `mount` and `unmount`.
+
+## Proposal for a (basic) frontend
+
+![Basic frontend proposal](docs/user-interface-proposal.png)
 
 ## Assistance for prefilling the SMS/TSM Linker
 

@@ -96,7 +96,7 @@ beginning of time. ;)
 | id                     | `1`                                    |
 | tsm_instance           | `tsm.intranet.ufz.de`                  |
 | tsm_thing              | `b3b16570-5e55-11ec-902c-54e1ad7c5c19` |
-| tsm_datasource_id      | `7`                                    |
+| tsm_datastream_id      | `7`                                    |
 | sms_instance           | `webapp-stage.intranet.ufz.de/sms/`    |
 | sms_configuration_id   | `23`                                   |
 | sms_device_property_id | `42`                                   |

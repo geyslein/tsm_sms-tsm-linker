@@ -40,17 +40,17 @@
         </v-col>
 
         <v-col cols="12" sm="6" md="6">
-          <v-select :value="projects[1].configurations[1].name" label="Configuration"
-                    :items="projects[1].configurations.map(({name}) => name)"/>
+
+          <v-select :value="projects[1].configurations[1].devices[0]" label="Device"
+                    :items="projects[1].configurations[1].devices"/>
         </v-col>
         <v-col cols="12" sm="6" md="6">
           <v-select :value="tsm.things[1].name" label="TSM Thing"
                     :items="tsm.things.map(({name}) => name)"/>
         </v-col>
         <v-col cols="12" sm="6" md="6">
-
-          <v-select :value="projects[1].configurations[1].devices[0]" label="Device"
-                    :items="projects[1].configurations[1].devices"/>
+          <v-select :value="mountPeriods[0]" label="Mount periode"
+                    :items="mountPeriods"/>
         </v-col>
         <v-col cols="12" sm="6" md="6">
 
@@ -61,21 +61,10 @@
         </v-col>
 
         <v-col cols="12" sm="6" md="6">
-
-          <v-select :value="mountPeriods[0]" label="Mount periode"
-                    :items="mountPeriods"/>
-        </v-col>
-        <v-col cols="12" sm="6" md="6">
-
-        </v-col>
-
-        <v-col cols="12" sm="6" md="6">
-
           <v-select :value="measuredQuantities[0]" label="Measured Quantity"
                     :items="measuredQuantities"/>
         </v-col>
         <v-col cols="12" sm="6" md="6">
-
         </v-col>
 
       </v-row>

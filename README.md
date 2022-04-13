@@ -73,7 +73,7 @@ A possible one string (persistent?) id would be `<instance>/<thing.uuid>/<datast
 
 ## SMS: Unique Measured quantity id 
 
-`<sms-instance><configuration.id><device_property.id>`
+`<sms-instance><device.id><device_property.id>`
 
 - maybe device URN can be part of the identifier?
 
@@ -98,7 +98,7 @@ beginning of time. ;)
 | tsm_thing              | `b3b16570-5e55-11ec-902c-54e1ad7c5c19` |
 | tsm_datastream_id      | `7`                                    |
 | sms_instance           | `webapp-stage.intranet.ufz.de/sms/`    |
-| sms_configuration_id   | `23`                                   |
+| sms_device_id          | `23`                                   |
 | sms_device_property_id | `42`                                   |
 | start_date             | `2010-01-01 12:00:00.000000 +00:00`    |
 | end_date               | `2020-01-01 12:00:00.000000 +00:00`    |
